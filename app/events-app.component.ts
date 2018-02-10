@@ -2,9 +2,11 @@ import { Component } from '@angular/core'
 
 @Component({
     selector: 'events-app',
-    template: `<h1 class="abc"> Hi </h1><br><br>
-    <h1> End</h1>`,
-    styles: [` .abc {background-color:transparent } `]
+    template: `<div class="fixed-bg bg1" >
+    <h1> Hey </h1> </div>
+    <div class="fixed-bg">
+    <h1> Body</h1> </div>`,
+    styles: []
 })
 export class EventsAppComponent{
 }
